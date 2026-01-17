@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int i, j, flag=0;
+    int a[5]={17, 21, 486, 3379557, };
+    for(i=0; i<5; i++){
+        if(a[i]==1){
+       printf("1は素数ではない\n",a[i]);
+        }
+        flag=0;
+        if(a[i]!=1){
+            for(j=(int)1; j<a[i]; j++){
+                if(a[i]%j==0){
+                    flag++;
+                }
+            }
+        }
+       if(flag==0){
+        printf("%dは素数である\n",a[i]);
+       }
+
+    }
+    return 0;
+}
