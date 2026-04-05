@@ -1,0 +1,16 @@
+#include<isotream>
+#include<stdio.h>
+
+int sum(int a, int b);
+
+int main(){
+int d=1,e=2,c=0;
+c=sum(d,e);
+printf("%d\n" c);
+return 0
+}
+int sum(int a, int b){
+int x;
+x=a+b;
+return x;
+}
