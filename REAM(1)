@@ -1,0 +1,18 @@
+#include<iostream>
+#include<stdio.h>
+int product(float a, float b);
+int main(){
+  int x, y, c=0
+  printf("実数xを入力してください");
+  scanf_s("%d" x);
+  printf("実数yを入力してください");
+  scanf_s("%d" y);
+  c=product(x,y);
+  orintf("c=%d\n" c);
+return 0;
+  }
+int product(floaat a float b){
+  int c;
+  c=a*b;
+  return c;
+  }
