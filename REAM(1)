@@ -4,9 +4,9 @@ int product(float a, float b);
 int main(){
   int x, y, c=0
   printf("実数xを入力してください");
-  scanf_s("%d" x);
+  scanf_s("%f" x);
   printf("実数yを入力してください");
-  scanf_s("%d" y);
+  scanf_s("%f" y);
   c=product(x,y);
   orintf("c=%d\n" c);
 return 0;
