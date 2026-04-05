@@ -1,6 +1,6 @@
 #include<iostream>
 #include<stdio.h>
-int product(float a, float b);
+float product(float a, float b);
 int main(){
   int x, y, c=0
   printf("実数xを入力してください");
@@ -11,7 +11,7 @@ int main(){
   orintf("c=%d\n" c);
 return 0;
   }
-int product(floaat a float b){
+float product(floaat a float b){
   int c;
   c=a*b;
   return c;
