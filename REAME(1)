@@ -1,0 +1,18 @@
+#include<istoream>
+#include<stdio.h>
+double sum(double a, double b);
+int main(){
+  double x,y,c=0;
+  printf("実数xを入力してください\n");
+  scanf_s("%lf", &x);
+  printf("実数yを入力してください\n");
+  scanf_s("%lf", &y);
+c=sum(x,y);
+  printf("c=%f\n" c);
+
+  return 0;}
+
+double sum(double a, double b){
+  double c;
+  c=pow(a,2)+pow(b,2);
+  return 0;}
