@@ -4,9 +4,9 @@ double sum(double a, double b);
 int main(){
   double x,y,c=0;
   printf("実数xを入力してください\n");
-  scanf_s("%lf" &x);
+  scanf_s("%lf", &x);
   printf("実数yを入力してください\n");
-  scanf_s("%lf" &y);
+  scanf_s("%lf", &y);
 c=sum(x,y);
   printf("c=%f\n" c);
 
