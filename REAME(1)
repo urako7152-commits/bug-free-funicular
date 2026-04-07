@@ -1,0 +1,15 @@
+#include<iostream>
+#include<stdio.h>
+int sum(int a);
+int main(){
+  int n, c;
+  printf("数をｎを入力してください");
+  scanf_s("%d", n);
+  c=sum(n);
+  printf("%d\n",c);
+  return 0;}
+int sum(int a){
+  int b, C=0;
+  for(b=1;b<=a;b++){
+    c+=b;}
+  return c;}
