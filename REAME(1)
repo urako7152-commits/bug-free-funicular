@@ -1,0 +1,14 @@
+#include<istream>
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+char str1[10]="Saga";
+char str2[10];
+int i;
+for(i=0;i<10;i++){
+  IF((str2[i]=str1[i])==0)
+  break;
+  }
+  printf("str1の内容は｢%s｣\n",str1);
+  printf("str2の内容は｢%s｣\n",str2);
+  }
