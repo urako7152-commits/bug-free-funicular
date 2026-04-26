@@ -11,5 +11,4 @@ int main()
             printf("%dは奇数である\n", a[i]);
         }
     }
-    return 0;
-}
+    return 0;}
